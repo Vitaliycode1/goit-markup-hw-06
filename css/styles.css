@@ -811,3 +811,12 @@ img {
   fill: currentColor;
   vertical-align: middle;
 }
+/**
+  |============================
+  | Form
+  |============================
+*/
+label {
+  display: block;
+  margin-bottom: 5px;
+}
