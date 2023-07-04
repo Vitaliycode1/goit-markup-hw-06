@@ -893,7 +893,6 @@ img {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 8px;
 
   margin-bottom: 24px;
 }
@@ -902,6 +901,28 @@ img {
   font-family: Roboto;
   color: #8e8f99;
 }
+.form-check-input {
+  appearance: none;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.form-custom-check {
+  margin-right: 8px;
+}
+.unchecked {
+  opacity: 1;
+}
+.checked {
+  opacity: 0;
+}
+.form-check-input:checked + .form-custom-check > .unchecked {
+  opacity: 0;
+}
+.form-check-input:checked + .form-custom-check > .checked {
+  opacity: 1;
+}
+
 .form-agreement-link {
   color: var(--accent-txt-cl);
 }

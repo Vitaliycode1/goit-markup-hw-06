@@ -643,7 +643,15 @@
             placeholder="Text input"
           ></textarea>
           <label class="form-agreement">
-            <input type="checkbox" name="modal_agreement" />
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="modal_agreement"
+            />
+            <svg class="form-custom-check" width="16" height="16">
+              <use class="unchecked" href="./images/icons.svg#unchecked"></use>
+              <use class="checked" href="./images/icons.svg#checked"></use>
+            </svg>
             <span class="form-agreement-text"
               >I accept the terms and conditions of the
               <a
