@@ -777,6 +777,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: opacity var(--anim-fast), transform var(--anim-fast);
+  tra
 }
 
 .backdrop.is-hidden .modal {
@@ -912,9 +913,11 @@ img {
 }
 .unchecked {
   opacity: 1;
+  transition: 250ms;
 }
 .checked {
   opacity: 0;
+  transition: 250ms;
 }
 .form-check-input:checked + .form-custom-check > .unchecked {
   opacity: 0;
