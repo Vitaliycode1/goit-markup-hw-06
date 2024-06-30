@@ -1,0 +1,138 @@
+:root {
+  /* Fonts */
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+
+  /* Color back-ground*/
+  --primary-bg-color: #ffffff;
+  --accent-bg-cl: #2e2f42;
+  --secondary-bg-color: #f4f4fd;
+  /* Text color */
+  --primary-text-color: #434455;
+  --secondary-text-color: #2e2f42;
+  --accent-txt-cl: #4d5ae5;
+  --light-txt-cl: #404bbf;
+  /* Btn Color */
+  --primary-btn-color: #4d5ae5;
+  --light-btn-cl: #404bbf;
+  --secondary-btn-color: #404bbf;
+  --accent-btn-cl: #f4f4fd;
+  --primary-btn-text-cl: #ffffff;
+  --accent-btn-txt-cl: #4d5ae5;
+}
+
+body {
+  font-family: var(--primary-font);
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-txt-cl);
+}
+.header-logo .logo-world {
+  color: var(--secondary-text-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--light-txt-cl);
+}
+.contacts {
+  font-style: normal;
+}
+.contacts-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--light-txt-cl);
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+/* Hero section */
+.hero {
+  background-color: var(--accent-bg-cl);
+}
+.hero .title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.btn {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--accent-btn-cl);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: var(--primary-btn-color);
+}
+.btn:hover,
+.btn:focus {
+  color: var(--primary-btn-text-cl);
+  background-color: var(--light-btn-cl);
+}
+
+/* Strategy section */
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.subtitle-decr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+/* Team section */
+.team {
+  background-color: var(--secondary-bg-color);
+}
+/* Footer Section */
+.footer-page {
+  background-color: var(--accent-bg-cl);
+}
+.footer-logo .logo-world {
+  color: #f4f4fd;
+}
+.footer-page .subtitle-decr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
