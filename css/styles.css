@@ -123,12 +123,24 @@ a {
 .team {
   background-color: var(--secondary-bg-color);
 }
+.team-item {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background-color: var(--primary-bg-color);
+}
+
+/* Portfolio section*/
+
+.portfolio-item {
+  background-color: #fff;
+}
+
 /* Footer Section */
 .footer-page {
   background-color: var(--accent-bg-cl);
 }
 .footer-logo .logo-world {
-  color: #f4f4fd;
+  color: var(--primary-bg-color);
 }
 .footer-page .subtitle-decr {
   font-size: 16px;
