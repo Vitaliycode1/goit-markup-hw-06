@@ -302,6 +302,8 @@ img {
 .footer-page .logo,
 .footer-page .logo-world {
   display: inline-block;
+}
+.footer-page .logo {
   margin-bottom: 16px;
 }
 
