@@ -140,6 +140,8 @@ img {
   gap: 40px;
 }
 .contacts-link {
+  display: block;
+  margin: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -307,6 +309,7 @@ img {
   color: var(--primary-bg-color);
 }
 .footer-page .subtitle-decr {
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
