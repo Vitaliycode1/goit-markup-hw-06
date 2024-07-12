@@ -374,6 +374,13 @@ img {
   margin: 0 auto;
   background-color: var(--accent-bg-cl);
 }
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.left-footer {
+  margin-right: 120px;
+}
 .footer-page .logo,
 .footer-page .logo-world {
   display: inline-block;
@@ -387,8 +394,14 @@ img {
 }
 .footer-page .subtitle-decr {
   max-width: 264px;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.footer-icons .subtitle-decr {
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+.footer-icons .social-link:hover,
+.footer-icons .social-link:focus {
+  background-color: #31d0aa;
 }
