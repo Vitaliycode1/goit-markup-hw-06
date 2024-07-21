@@ -77,7 +77,7 @@
       <!-- Strategi section -->
       <section class="strategy">
         <div class="container">
-          <h2 hidden>header</h2>
+          <h2 visually-hidden>header</h2>
           <ul class="strategy-list">
             <li class="strategy-item">
               <div class="strategi-icon">
@@ -597,7 +597,7 @@
     <div class="backdrop is-open" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
-          <svg class="modal-icon" width="8" height="8">
+          <svg class="modal-icon-btn" width="8" height="8">
             <use href="./images/icons.svg#close-icon"></use>
           </svg>
         </button>
@@ -658,36 +658,35 @@
             </div>
           </div>
 
-          <label class="modal-input" for="modal_comment">Comment</label>
-          <textarea
-            class="form-comment"
-            name="modal_comment"
-            id="modal_comment"
-            rows="5"
-            placeholder="Text input"
-          ></textarea>
-          <label class="form-agreement">
+          <div class="modal-field">
+            <label class="form-label" for="modal_comment">Comment</label>
+            <textarea
+              class="form-comment"
+              name="modal_comment"
+              id="modal_comment"
+              rows="5"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="modal-field">
             <input
-              class="form-check-input"
+              class="form-check visually-hidden"
               type="checkbox"
-              name="modal_agreement"
+              name="terms"
+              id="terms"
+              value="true"
             />
-            <svg class="form-custom-check" width="16" height="16">
-              <use class="unchecked" href="./images/icons.svg#unchecked"></use>
-              <use class="checked" href="./images/icons.svg#checked"></use>
-            </svg>
-            <span class="form-agreement-text"
+
+            <label for="terms" class="modal-checked-text"
+              ><span>
+                <svg class="checked-icon" width="10" height="8">
+                  <use href="./images/icons.svg#vector"></use>
+                </svg> </span
               >I accept the terms and conditions of the
-              <a
-                class="form-agreement-link"
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                >Privacy Policy</a
-              >
-            </span>
-          </label>
-          <button class="form-btn" type="submit">Send</button>
+              <a class="check-link" href="index.html">Privacy Policy</a></label
+            >
+          </div>
+          <button class="form-btn btn" type="submit">Send</button>
         </form>
       </div>
     </div>
