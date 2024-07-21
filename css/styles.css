@@ -666,8 +666,15 @@ img {
 }
 .subscribe-btn {
   display: flex;
-  gap: 16px;
+  justify-content: center;
+  align-items: center;
   padding: 8px 24px;
   min-width: 165px;
   height: 40px;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+}
+.subscribe-icon {
+  margin-left: 16px;
 }
