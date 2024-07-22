@@ -610,9 +610,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
-  align-items: center;
-  gap: 8px;
 }
 
 .modal-checked-text .check-link {
@@ -621,17 +618,18 @@ img {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
-.modal-checked-text span {
+.check-icon-container {
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   fill: transparent;
+  margin-right: 8px;
 }
 .check-icon-container {
-  display: inline-flex;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
