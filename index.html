@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
@@ -159,15 +160,8 @@
       <!-- Hero section -->
       <section class="hero">
         <div class="container">
-          <h1 class="title" style="--direction: -1">
-            Effective Solutions for Your Business
-          </h1>
-          <button
-            class="btn"
-            type="button"
-            style="--direction: 1"
-            data-modal-open
-          >
+          <h1 class="title">Effective Solutions for Your Business</h1>
+          <button class="btn" type="button" data-modal-open>
             Order Service
           </button>
         </div>
@@ -235,6 +229,7 @@
       <section class="team">
         <div class="container">
           <h2 class="title">Our Team</h2>
+          `
           <ul class="team-list">
             <li class="team-item">
               <img
@@ -243,8 +238,9 @@
                   ./images/prodact_des2x.jpg 2x
                 "
                 src="./images/prodact_des.jpg"
-                alt="man"
+                alt="photo mark guerrero"
                 width="264"
+                height="260"
               />
               <div class="image-discription">
                 <h3 class="subtitle">Mark Guerrero</h3>
@@ -314,6 +310,7 @@
                 src="./images/frontend_dev.jpg"
                 alt="man"
                 width="264"
+                height="260"
               />
               <div class="image-discription">
                 <h3 class="subtitle">Tom Ford</h3>
@@ -380,6 +377,7 @@
                 src="./images/marketing.jpg"
                 alt="women"
                 width="264"
+                height="260"
               />
               <div class="image-discription">
                 <h3 class="subtitle">Camila Garcia</h3>
@@ -449,6 +447,7 @@
                 src="./images/ui_designer.jpg"
                 alt="man"
                 width="264"
+                height="260"
               />
               <div class="image-discription">
                 <h3 class="subtitle">Daniel Wilson</h3>
@@ -514,7 +513,7 @@
       </section>
 
       <!-- Our Portfolio section -->
-      <section class="portfolio hidden">
+      <section class="portfolio">
         <div class="container">
           <h2 class="title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -522,6 +521,7 @@
               <a class="portfolio-link" href="">
                 <div class="portfolio-thumb">
                   <img
+                    srcset="./images/bankapp.jpg 1x, ./images/bankapp2x.jpg 2x"
                     src="./images/bankapp.jpg"
                     alt="banking interface "
                     width="360"
@@ -535,7 +535,7 @@
                 </div>
                 <div class="portfolio-decr">
                   <h3 class="subtitle">Banking App</h3>
-                  <p class="subtitle-desc">App</p>
+                  <p class="subtitle-decr">App</p>
                 </div>
               </a>
             </li>
@@ -543,6 +543,7 @@
               <a class="portfolio-link" href="">
                 <div class="portfolio-thumb">
                   <img
+                    srcset="./images/payment.jpg 1x, ./images/payment2x.jpg 2x"
                     src="./images/payment.jpg"
                     alt="qr "
                     width="360"
@@ -556,7 +557,7 @@
                 </div>
                 <div class="portfolio-decr">
                   <h3 class="subtitle">Cashless Payment</h3>
-                  <p class="subtitle-desc">Marketing</p>
+                  <p class="subtitle-decr">Marketing</p>
                 </div>
               </a>
             </li>
@@ -565,6 +566,10 @@
               <a class="portfolio-link" href="">
                 <div class="portfolio-thumb">
                   <img
+                    srcset="
+                      ./images/meditation.jpg   1x,
+                      ./images/meditation2x.jpg 2x
+                    "
                     src="./images/meditation.jpg"
                     alt="laptop and smartphone"
                     width="360"
@@ -578,7 +583,7 @@
                 </div>
                 <div class="portfolio-decr">
                   <h2 class="subtitle">Meditation App</h2>
-                  <p class="subtitle-desc">App</p>
+                  <p class="subtitle-decr">App</p>
                 </div>
               </a>
             </li>
@@ -586,6 +591,7 @@
               <a class="portfolio-link" href="">
                 <div class="portfolio-thumb">
                   <img
+                    srcset="./images/car.jpg 1x, ./images/car2x.jpg 2x"
                     src="./images/car.jpg"
                     alt="taxi"
                     width="360"
@@ -599,7 +605,7 @@
                 </div>
                 <div class="portfolio-decr">
                   <h2 class="subtitle">Taxi Service</h2>
-                  <p class="subtitle-desc">Marketing</p>
+                  <p class="subtitle-decr">Marketing</p>
                 </div>
               </a>
             </li>
@@ -607,6 +613,7 @@
               <a class="portfolio-link" href="">
                 <div class="portfolio-thumb">
                   <img
+                    srcset="./images/screen.jpg 1x, ./images/screen2x.jpg 2x"
                     src="./images/screen.jpg"
                     alt="screen smartphone"
                     width="360"
@@ -620,7 +627,7 @@
                 </div>
                 <div class="portfolio-decr">
                   <h3 class="subtitle">Screen Illustrations</h3>
-                  <p class="subtitle-desc">Design</p>
+                  <p class="subtitle-decr">Design</p>
                 </div>
               </a>
             </li>
@@ -628,6 +635,7 @@
               <a class="portfolio-link" href="">
                 <div class="portfolio-thumb">
                   <img
+                    srcset="./images/courses.jpg 1x, ./images/courses2x.jpg 2x"
                     src="./images/courses.jpg"
                     alt="young woman"
                     width="360"
@@ -641,7 +649,7 @@
                 </div>
                 <div class="portfolio-decr">
                   <h3 class="subtitle">Online Courses</h3>
-                  <p class="subtitle-desc">Marketing</p>
+                  <p class="subtitle-decr">Marketing</p>
                 </div>
               </a>
             </li>
