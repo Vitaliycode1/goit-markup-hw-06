@@ -1,5 +1,8 @@
-.hidden {
-  display: none;
+* {
+  box-sizing: border-box;
+}
+.container {
+  overflow: hidden;
 }
 :root {
   --direction: 1;
@@ -1097,6 +1100,9 @@ input::placeholder {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
+.check-text {
+  background-color: transparent;
+}
 .check-icon-container {
   width: 16px;
   height: 16px;
@@ -1119,6 +1125,9 @@ input::placeholder {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+.form-check:checked + .modal-checked-text .text-check {
+  background-color: transparent;
 }
 .form-btn {
   display: block;
