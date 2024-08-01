@@ -568,15 +568,6 @@ img {
   color: #434455;
 }
 @media screen and (min-width: 768px) {
-  .strategi-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    margin-bottom: 8px;
-  }
   .strategy-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -591,6 +582,15 @@ img {
   }
 }
 @media screen and (min-width: 1158px) {
+  .strategi-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
   .strategy-list {
     flex-direction: row;
     row-gap: 24px;
@@ -805,10 +805,10 @@ img {
 }
 .footer-page .logo,
 .footer-page .logo-world {
-  display: inline-block;
+  display: flex;
 }
 .footer-page .logo {
-  margin-left: 86px;
+  justify-content: center;
   margin-bottom: 16px;
 }
 .footer-logo .logo-world {
@@ -886,7 +886,6 @@ input::placeholder {
   color: #fff;
   cursor: pointer;
   border: none;
-  margin-left: 61px;
 }
 
 .subscribe-icon {
@@ -901,7 +900,7 @@ input::placeholder {
   }
 
   .footer-page .logo {
-    margin-left: 0;
+    justify-content: start;
   }
   .left-footer {
     width: 264px;
